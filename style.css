@@ -1,0 +1,76 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+    }
+
+    header{
+        height: calc(100% - 65px);
+        perspective: 1500px;
+        perspective-origin: center bottom;
+        background-color: #fff;
+    }
+    div{
+        position: relative;
+        background:#000 url('./pexels-hitarth-jadhav-220357.jpg')
+         center center no-repeat;
+        background-size: cover;
+        transform-origin: 50% 100%;
+        transform-style: preserve-3d;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        position: absolute;
+        color: #fff;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: cursive;
+        z-index: 2;
+        bottom: 10px;
+    }
+
+    nav{
+        position: absolute;
+        width: 100%;  
+        bottom: 10px;
+    }
+    ul{
+        text-align: center;
+    }
+    li{
+        list-style-type: none;
+        display: inline-block;
+
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        margin: 20px;
+        font-size: 17px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+    .fixed{
+        position: fixed;
+        top: 17px;
+        left: 0;
+        right: 0;
+    }
+    section{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+    }
+
